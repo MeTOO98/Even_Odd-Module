@@ -17,8 +17,42 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/Even_Odd.git
 cd Even_Odd
+```
 
 
+```bash
 Then import the functions into your Python code:
 
 from Even_Odd import even_odd1, even_odd2
+```
+
+## Usage
+
+```bash
+even_odd1(10)
+# Output: number is Even
+
+even_odd1(5)
+# Output: number is Odd
+
+even_odd1(0)
+# Output: number is Zero
+
+
+even_odd2(10)
+# Output: number is Even
+
+even_odd2(5)
+# Output: number is Odd
+
+even_odd2(0)
+# Output: number is Zero
+
+```
+
+| Function         | Description                                                       |
+| ---------------- | ----------------------------------------------------------------- |
+| `even_odd1(num)` | Uses the modulo operator `%` to check if a number is even or odd. |
+| `even_odd2(num)` | Uses bitwise AND `&` to check if a number is even or odd.         |
+
+
