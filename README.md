@@ -20,9 +20,10 @@ cd Even_Odd
 ```
 
 
-```bash
+
 Then import the functions into your Python code:
 
+```bash
 from Even_Odd import even_odd1, even_odd2
 ```
 
